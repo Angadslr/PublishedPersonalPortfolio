@@ -1,0 +1,68 @@
+.about-container {
+  background-color: #303030ff;
+}
+
+
+
+
+.cube {
+  transform-style: preserve-3d;
+  animation: spin 90s infinite linear;
+  width: 300px;
+  height: 300px;
+  margin-left: 600px;
+  margin-top: -575px;
+}
+
+.cube div {
+   width: 300px;
+   height: 300px;
+   line-height: 300px;
+   text-align: center;
+   border: 2px solid #C15F3C;
+   background-color: #624438;
+   font-size:42px;
+   display: block;
+   position: absolute;
+  mix-blend-mode:contrast;
+}
+
+.cube div.top {
+  transform: rotateX(90deg); 
+  margin-top: -50px;
+}
+
+.cube div.right {
+  transform: rotateY(90deg); 
+  margin-left: 50px;
+}
+
+.cube div.bottom {
+  transform: rotateX(-90deg); 
+  margin-top: 50px;
+}
+
+.cube div.left {
+  transform: rotateY(-90deg); 
+  margin-left: -50px;
+}
+
+.cube div.front {
+  transform: translateZ(50px);
+}
+
+.cube div.back {
+  transform: translateZ(-50px) rotateX(180deg);
+  
+}
+
+.cube div.back span{ 
+  transform: rotate(-180deg);
+}
+
+
+
+@keyframes spin {
+  0% {-webkit-transform: rotateX(-800deg) rotateY(100deg);}
+  100% {-webkit-transform: rotateX(-4000deg) rotateY(3600deg);}
+}
