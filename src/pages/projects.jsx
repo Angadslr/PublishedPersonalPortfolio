@@ -1,7 +1,21 @@
+import Sphere from './sphere.jsx';
+import './projects.css';
 function Projects() {
   return (
     <>
-      <div style={{
+        <div style={{
+        position: 'fixed',
+        top: '90px',
+        left: '100px',
+        width: '120px',
+        height: '120px',
+        opacity: 0.15,
+        zIndex: 10,
+        pointerEvents: 'none'
+      }}>
+        <Sphere />
+      </div>
+      <div className='projects-container' style={{
         backgroundColor: '#303030ff',
         color: 'white',
         minHeight: '100vh',

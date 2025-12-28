@@ -1,0 +1,59 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animate all text elements */
+.index-body h1,
+.index-body h2 {
+  animation: fadeIn 1.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+.index-body h1:nth-of-type(1) {
+  animation-delay: 0.2s;
+}
+
+.index-body h1:nth-of-type(2) {
+  animation-delay: 0.6s;
+}
+
+.index-body h2 {
+  animation-delay: 1s;
+}
+
+/* Animate images */
+.groupPic {
+  animation: fadeIn 1.5s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 1.4s;
+}
+
+.github-button,
+.instagram-button,
+.linkedin-button {
+  animation: fadeIn 1.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+.github-button {
+  animation-delay: 1.8s;
+}
+
+.instagram-button {
+  animation-delay: 2.1s;
+}
+
+.linkedin-button {
+  animation-delay: 2.4s;
+}
+
+.footer {
+  animation: fadeIn 1.5s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 2.7s;
+}

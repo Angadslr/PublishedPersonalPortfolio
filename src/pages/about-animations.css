@@ -1,0 +1,63 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animate main heading */
+.about-container h1 {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.1s;
+}
+
+/* Animate paragraph text */
+.about-container p {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.3s;
+}
+
+/* Animate interest box - target the div with specific styles */
+.about-container div[style*="border: 2px solid rgba(184, 120, 23"] {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+/* Animate h3 in interests */
+.about-container h3 {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+/* Animate ul list items */
+.about-container ul {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+/* Animate social buttons */
+.github-button1,
+.about-container a[href*="instagram"],
+.about-container a[href*="linkedin"] {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.github-button1 {
+  animation-delay: 0.7s;
+}
+
+.about-container a[href*="instagram"] {
+  animation-delay: 0.85s;
+}
+
+.about-container a[href*="linkedin"] {
+  animation-delay: 1s;
+}

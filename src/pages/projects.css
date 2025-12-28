@@ -1,0 +1,55 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Animate main heading */
+.projects-container h1 {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.1s;
+}
+
+/* Animate description paragraph */
+.projects-container > p {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.3s;
+}
+
+/* Animate resume block */
+.projects-container a {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+/* Animate social buttons container and buttons */
+.projects-container > div:last-child {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+.projects-container a[href*="github"] img,
+.projects-container a[href*="instagram"] img,
+.projects-container a[href*="linkedin"] img {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.projects-container a[href*="github"] {
+  animation-delay: 0.7s;
+}
+
+.projects-container a[href*="instagram"] {
+  animation-delay: 0.85s;
+}
+
+.projects-container a[href*="linkedin"] {
+  animation-delay: 1s;
+}

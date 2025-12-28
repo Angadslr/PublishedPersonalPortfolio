@@ -1,4 +1,5 @@
 import Sphere from './sphere.jsx';
+import './index.css';
 
 function Index() {
     return (
@@ -16,7 +17,7 @@ function Index() {
         <Sphere />
       </div>
 
-    <body style={{  backgroundColor: '#303030ff',
+    <body className='index-body' style={{  backgroundColor: '#303030ff',
   minHeight: '100vh', color: 'white', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'self-start', paddingLeft: '80px'}}>
       <h1 className='Hey'>Hey.</h1>
       <h1 className='myName'>I'm Angad</h1>

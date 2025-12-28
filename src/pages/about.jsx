@@ -1,8 +1,21 @@
 import './about.css'
+import './about-animations.css'
 import Sphere from './sphere.jsx';
 function About() {
   return (
     <>
+        <div style={{
+        position: 'fixed',
+        top: '90px',
+        left: '100px',
+        width: '120px',
+        height: '120px',
+        opacity: 0.15,
+        zIndex: 10,
+        pointerEvents: 'none'
+      }}>
+        <Sphere />
+      </div>
       <div className='about-container' style={{
         color: 'white',
         minHeight: '100vh',
