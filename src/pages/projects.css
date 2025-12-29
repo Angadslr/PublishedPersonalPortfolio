@@ -21,6 +21,13 @@
   animation-delay: 0.3s;
 }
 
+/* Animate skill boxes */
+.projects-container > div[style*="gap: 40px"] {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.4s;
+}
+
 /* Animate resume block */
 .projects-container a {
   animation: fadeIn 1s ease-in-out forwards;

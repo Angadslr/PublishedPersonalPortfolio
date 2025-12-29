@@ -50,6 +50,124 @@ function Projects() {
           Check out my resume to see all my projects and experience
         </p>
 
+        {/* Skills Boxes Container */}
+        <div style={{
+          display: 'flex',
+          gap: '40px',
+          marginBottom: '80px',
+          justifyContent: 'space-between',
+          width: '90%',
+          maxWidth: '1200px'
+        }}>
+          {/* Programming Languages Box */}
+          <div style={{
+            backgroundColor: 'rgba(89, 89, 89, 0.1)',
+            padding: '30px',
+            borderRadius: '10px',
+            border: '2px solid rgba(184, 120, 23, 0.4)',
+            flex: 1,
+            minWidth: '300px'
+          }}>
+            <h3 style={{
+              color: '#C15F3C',
+              fontSize: '24px',
+              marginBottom: '20px',
+              fontFamily: "'Times New Roman', serif",
+              fontStyle: 'italic'
+            }}>
+              Programming Languages
+            </h3>
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(2, 1fr)',
+              gap: '15px'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>JavaScript</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>HTML</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>CSS</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Python</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Java</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>C++</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Libraries/Frameworks Box */}
+          <div style={{
+            backgroundColor: 'rgba(89, 89, 89, 0.1)',
+            padding: '30px',
+            borderRadius: '10px',
+            border: '2px solid rgba(184, 120, 23, 0.4)',
+            flex: 1,
+            minWidth: '300px'
+          }}>
+            <h3 style={{
+              color: '#C15F3C',
+              fontSize: '24px',
+              marginBottom: '20px',
+              fontFamily: "'Times New Roman', serif",
+              fontStyle: 'italic'
+            }}>
+              Libraries/Frameworks
+            </h3>
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(2, 1fr)',
+              gap: '15px'
+            }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>React</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Pandas</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>NumPy</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-Learn" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Scikit-Learn</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Matplotlib</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Node.js</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Docker</span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <img src="https://lmstudio.ai/favicon.ico" alt="LM Studio" style={{ width: '32px', height: '32px' }} />
+                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>LM Studio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Resume Block */}
         <a 
           href="https://drive.google.com/file/d/13IZpEHq_f_HvkLD6esLxWD6M7nDAleKO/view?usp=drive_link"
