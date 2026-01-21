@@ -34,7 +34,7 @@ function About() {
         <h1 style={{
           fontFamily: "'Times New Roman', serif",
           fontSize: '80px',
-          color: '#FFFFFF',
+          color: '#C15F3C',
           marginBottom: '20px',
           fontStyle: 'italic'
         }}>
@@ -53,7 +53,7 @@ function About() {
             <p style={{
               fontSize: '20px',
               lineHeight: '1.8',
-              color: '#FFFFFF',
+              color: '#e8e8e8',
               marginBottom: '30px',
               fontFamily: "'Times New Roman', serif",
               width: '50%'
@@ -72,15 +72,15 @@ function About() {
             
             
             <div style={{
-              backgroundColor: 'rgba(179, 229, 252, 0.1)',
+              backgroundColor: 'rgba(89, 89, 89, 0.1)1)',
               padding: '20px',
               borderRadius: '10px',
-              border: '2px solid rgba(179, 229, 252, 0.6)',
+              border: '2px solid rgba(184, 120, 23, 0.4)',
               width: '50%'
 
             }}>
               <h3 style={{
-                color: '#E0F6FF',
+                color: '#C15F3C',
                 fontSize: '24px',
                 marginBottom: '15px',
                 fontFamily: "'Times New Roman', serif",
@@ -91,7 +91,7 @@ function About() {
               <ul style={{
                 fontSize: '18px',
                 lineHeight: '2',
-                color: '#FFFFFF',
+                color: '#e8e8e8',
                 listStyleType: 'none',
                 padding: 0,
                 fontFamily: "'Times New Roman', serif"

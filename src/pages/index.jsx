@@ -23,10 +23,10 @@ function Index() {
       backgroundPosition: 'center',
       backgroundAttachment: 'fixed',
       minHeight: '100vh', color: 'white', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'self-start', paddingLeft: '80px'}}>
-      <h1 className='Hey' style={{color: '#E0F6FF'}}>Hey.</h1>
-      <h1 className='myName' style={{color: '#FFFFFF'}}>I'm Angad</h1>
+      <h1 className='Hey'>Hey.</h1>
+      <h1 className='myName'>I'm Angad</h1>
       <br />
-      <h2 className='aDeveloper' style={{color: '#B3E5FC'}}>Computer Science & Business, Oregon State University 🦫</h2>
+      <h2 className='aDeveloper'>Computer Science & Business, Oregon State University 🦫</h2>
       
     </body>
 
