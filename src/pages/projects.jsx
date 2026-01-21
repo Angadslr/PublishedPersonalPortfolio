@@ -31,7 +31,7 @@ function Projects() {
         <h1 style={{
           fontFamily: "'Times New Roman', serif",
           fontSize: '80px',
-          color: '#C15F3C',
+          color: '#FFFFFF',
           marginBottom: '40px',
           fontStyle: 'italic',
           textAlign: 'center'
@@ -41,7 +41,7 @@ function Projects() {
 
         <p style={{
           fontSize: '24px',
-          color: '#e8e8e8',
+          color: '#E0F6FF',
           marginBottom: '60px',
           fontFamily: "'Times New Roman', serif",
           textAlign: 'center',
@@ -61,15 +61,15 @@ function Projects() {
         }}>
           {/* Programming Languages Box */}
           <div style={{
-            backgroundColor: 'rgba(89, 89, 89, 0.1)',
+            backgroundColor: 'rgba(179, 229, 252, 0.1)',
             padding: '30px',
             borderRadius: '10px',
-            border: '2px solid rgba(184, 120, 23, 0.4)',
+            border: '2px solid rgba(179, 229, 252, 0.6)',
             flex: 1,
             minWidth: '300px'
           }}>
             <h3 style={{
-              color: '#C15F3C',
+              color: '#E0F6FF',
               fontSize: '24px',
               marginBottom: '20px',
               fontFamily: "'Times New Roman', serif",
@@ -84,42 +84,42 @@ function Projects() {
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>JavaScript</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>JavaScript</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>HTML</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>HTML</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>CSS</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>CSS</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Python</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>Python</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Java</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>Java</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>C++</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>C++</span>
               </div>
             </div>
           </div>
 
           {/* Libraries/Frameworks Box */}
           <div style={{
-            backgroundColor: 'rgba(89, 89, 89, 0.1)',
+            backgroundColor: 'rgba(179, 229, 252, 0.1)',
             padding: '30px',
             borderRadius: '10px',
-            border: '2px solid rgba(184, 120, 23, 0.4)',
+            border: '2px solid rgba(179, 229, 252, 0.6)',
             flex: 1,
             minWidth: '300px'
           }}>
             <h3 style={{
-              color: '#C15F3C',
+              color: '#E0F6FF',
               fontSize: '24px',
               marginBottom: '20px',
               fontFamily: "'Times New Roman', serif",
@@ -134,35 +134,35 @@ function Projects() {
             }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>React</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>React</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Pandas</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>Pandas</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>NumPy</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>NumPy</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-Learn" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Scikit-Learn</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>Scikit-Learn</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" alt="Matplotlib" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Matplotlib</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>Matplotlib</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Node.js</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>Node.js</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>Docker</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>Docker</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <img src="https://lmstudio.ai/favicon.ico" alt="LM Studio" style={{ width: '32px', height: '32px' }} />
-                <span style={{ fontSize: '18px', color: '#e8e8e8', fontFamily: "'Times New Roman', serif" }}>LM Studio</span>
+                <span style={{ fontSize: '18px', color: '#FFFFFF', fontFamily: "'Times New Roman', serif" }}>LM Studio</span>
               </div>
             </div>
           </div>
@@ -180,22 +180,22 @@ function Projects() {
           }}
         >
           <div style={{
-            backgroundColor: 'rgba(255, 255, 255, 0.05)',
+            backgroundColor: 'rgba(179, 229, 252, 0.1)',
             borderRadius: '20px',
             padding: '60px',
-            border: '3px solid rgba(213, 116, 132, 0.4)',
+            border: '3px solid rgba(179, 229, 252, 0.6)',
             transition: 'all 0.3s',
             cursor: 'pointer',
             textAlign: 'center'
           }}
           onMouseOver={(e) => {
             e.currentTarget.style.transform = 'scale(1.05)';
-            e.currentTarget.style.borderColor = '#C15F3C';
-            e.currentTarget.style.boxShadow = '0 10px 40px rgba(213, 116, 132, 0.3)';
+            e.currentTarget.style.borderColor = '#E0F6FF';
+            e.currentTarget.style.boxShadow = '0 10px 40px rgba(179, 229, 252, 0.3)';
           }}
           onMouseOut={(e) => {
             e.currentTarget.style.transform = 'scale(1)';
-            e.currentTarget.style.borderColor = '#C15F3C';
+            e.currentTarget.style.borderColor = 'rgba(179, 229, 252, 0.6)';
             e.currentTarget.style.boxShadow = 'none';
           }}>
             
@@ -208,7 +208,7 @@ function Projects() {
 
             <h2 style={{
               fontSize: '42px',
-              color: '#C15F3C',
+              color: '#E0F6FF',
               marginBottom: '20px',
               fontFamily: "'Times New Roman', serif",
               fontStyle: 'italic'
@@ -218,7 +218,7 @@ function Projects() {
 
             <p style={{
               fontSize: '20px',
-              color: '#e8e8e8',
+              color: '#FFFFFF',
               marginBottom: '30px',
               fontFamily: "'Times New Roman', serif",
               lineHeight: '1.6'
@@ -230,8 +230,8 @@ function Projects() {
             <div style={{
               display: 'inline-block',
               padding: '15px 40px',
-              backgroundColor: '#C15F3C',
-              color: 'white',
+              backgroundColor: '#B3E5FC',
+              color: '#1a1a1a',
               borderRadius: '30px',
               fontSize: '20px',
               fontFamily: "'Times New Roman', serif",

@@ -17,12 +17,16 @@ function Index() {
         <Sphere />
       </div>
 
-    <body className='index-body' style={{  backgroundColor: '#303030ff',
-  minHeight: '100vh', color: 'white', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'self-start', paddingLeft: '80px'}}>
-      <h1 className='Hey'>Hey.</h1>
-      <h1 className='myName'>I'm Angad</h1>
+    <body className='index-body' style={{  
+      backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/bluesky.png)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundAttachment: 'fixed',
+      minHeight: '100vh', color: 'white', height: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'self-start', paddingLeft: '80px'}}>
+      <h1 className='Hey' style={{color: '#E0F6FF'}}>Hey.</h1>
+      <h1 className='myName' style={{color: '#FFFFFF'}}>I'm Angad</h1>
       <br />
-      <h2 className='aDeveloper'>Computer Science & Business, Oregon State University 🦫</h2>
+      <h2 className='aDeveloper' style={{color: '#B3E5FC'}}>Computer Science & Business, Oregon State University 🦫</h2>
       
     </body>
 
