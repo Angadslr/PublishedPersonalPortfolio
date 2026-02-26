@@ -49,6 +49,7 @@ function Index() {
 
     
     <footer className="footer">
+        
         <p>© 2025 Angad Srivastava ⚛ Designed with React.js ⚛ angadmaserati@gmail.com</p>
     </footer>
     </>
